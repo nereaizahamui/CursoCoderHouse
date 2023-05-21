@@ -54,7 +54,6 @@ header{
     background-position: center;
     background-size: cover;
 }
-
 .IndexFoto1{
     width: 50%;
 }
@@ -96,6 +95,11 @@ header{
     padding-bottom: 1%;
     font-size: larger;
 }
+.IndexTextoSpa{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+}
 #IndexContainerPromos{
     padding-top: 50px;
     display: grid;
@@ -118,52 +122,22 @@ header{
     grid-area: spa1;
     background-image: url(../img/spa2.jpg);
     padding-top: 22%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    position: relative;
-}
-#IndexSpa1:before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.4);
 }
 #IndexSpa2{
     grid-area: spa2;
     background-image: url(../img/spa1.jpg);
     padding-top: 22%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    position: relative;
-}
-#IndexSpa2:before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.4);
 }
 #IndexSpa3{
     grid-area: spa3;
     background-image: url(../img/spa4.jpg);
     padding-top: 22%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    position:relative;
-}
-#IndexSpa3:before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.4);
 }
 #IndexOtrosSpas{
     grid-area: otros;
@@ -171,13 +145,6 @@ header{
     padding-top: 22%;
     background-position: center;
     background-size: cover;
-    position: relative;
-}
-
-.IndexTextoSpa{
-    text-decoration: none;
-    color: white;
-    font-size: 130%;
 }
 .IndexTituloTurnos{
     margin-top: 35px;
@@ -223,80 +190,62 @@ header{
         grid-template-rows: 25px;
 }}
 
-/*Nosotros-Historia
-.contenedor1{
-    display: flex;
-    padding-top: 20px;
-    background-color: #677db7;
+/*Nosotros-Historia*/ 
+.HistoriaPrincipal{
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9CA3DB;
+    border-radius: 1%;
+    padding: 20px;
 }
-@media screen and (max-width:800px){
-.contenedor1{
-    display: inline;
-    background-color: yellow;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 12px;
+.HistoriaFotoFrente{
+    width: 80%;
+    height: 100%;
 }
+.HistoriaTexto{
+    padding-top: 50px;
 }
-.cuadrado1{
-    width: 25%px;
-    height: 20%;
-    margin-left: 15%;
+.HistoriaTitulos{
+    background-color:  #ededed;
+    padding: 3% 3%;
+}
+.HistoriaContendorValores{
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #9CA3DB;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1%;
+}
+.HistoriaCuboValores{
+    width: 20%;
+    height: 10%;
+    margin-top: 10px;
     border-radius: 10%;
 }
-.fotohistoria{
-    padding: 10px;
+.HistoriaIMGValores{
+    height: 50px;
+    width: 50px;
 }
-.cuadrado2{
-    width: 45%;
-    height: 25%; 
-    font-size: larger;
-}
-.tituloservicios{
-    margin-top: 30px;
-}
-*/
-
-
-
-
-
-
 /*servicios*/
 .ServiciosTitulo{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    background-color: #ededed;
 }
 .ServiciosLista{
-margin: 12%
+margin: 2% 4%;
+list-style: none;
 }
-.ServiciosOpciones{
-    border: #454B66 solid;
-    text-align: center;
-    padding: 0;
-    Margin:10px
+.ServiciosOpcionesBox{
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Consultorio*/
 .tituloalquiler{
