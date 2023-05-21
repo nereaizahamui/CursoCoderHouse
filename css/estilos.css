@@ -234,18 +234,21 @@ header{
 }
 /*servicios*/
 .ServiciosTitulo{
-    margin-top: 5px;
+    margin-top: 30px;
     margin-bottom: 10px;
     background-color: #ededed;
 }
 .ServiciosLista{
-margin: 2% 4%
+margin: 2% 4%;
+list-style: none;
 }
-.ServiciosOpciones{
-    border: #677db7 solid;
+.ServiciosOpcionesBox{
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    padding: 0;
 }
+
+
 
 
 
