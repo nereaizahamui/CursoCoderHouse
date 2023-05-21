@@ -234,7 +234,9 @@ header{
 }
 /*servicios*/
 .ServiciosTitulo{
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #ededed;
 }
 .ServiciosLista{
 margin: 2% 4%
