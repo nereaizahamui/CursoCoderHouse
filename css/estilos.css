@@ -191,40 +191,34 @@ header{
         grid-template-rows: 25px;
 }}
 
-/*Nosotros-Historia
-.contenedor1{
-    display: flex;
-    padding-top: 20px;
-    background-color: #677db7;
-    margin-left: 10%;
-}
-@media screen and (max-width:800px){
-.contenedor1{
-    display: inline;
-    background-color: yellow;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 12px;
-}
-}
-.cuadrado1{
-    width: 25%px;
-    height: 20%;
-    margin-left: 15%;
-    border-radius: 10%;
-}
-.fotohistoria{
-    padding: 10px;
-}
-.cuadrado2{
-    width: 45%;
-    height: 25%; 
-    font-size: larger;
-}
-.tituloservicios{
+/*Nosotros-Historia*/ 
+.HistoriaPrincipal{
     margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9CA3DB;
+    border-radius: 1%;
+    padding: 20px;
 }
-*/
+.HistoriaFotoFrente{
+    width: 80%;
+    height: 100%;
+}
+.HistoriaTexto{
+    padding-top: 50px;
+}
+.HistoriaTitulos{
+    background-color:  #ededed;
+    padding: 3% 3%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -243,7 +237,7 @@ margin: 12%
     border: #454B66 solid;
     text-align: center;
     padding: 0;
-    Margin:10px
+    Margin:10px;
 }
 
 
