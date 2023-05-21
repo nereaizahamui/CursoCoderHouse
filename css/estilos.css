@@ -232,8 +232,6 @@ header{
     height: 50px;
     width: 50px;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -243,7 +241,6 @@ header{
 
 
 
->>>>>>> nosotros
 /*servicios*/
 .ServiciosTitulo{
     margin-top: 30px;
@@ -254,15 +251,11 @@ header{
 margin: 2% 4%;
 list-style: none;
 }
-<<<<<<< HEAD
-
-=======
 .ServiciosOpciones{
     border: #454B66 solid;
     text-align: center;
     padding: 0;
     Margin:10px;
->>>>>>> nosotros
 }
 
 /*Consultorio*/
