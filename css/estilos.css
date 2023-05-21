@@ -212,10 +212,27 @@ header{
     background-color:  #ededed;
     padding: 3% 3%;
 }
-
-
-
-
+.HistoriaContendorValores{
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #9CA3DB;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1%;
+}
+.HistoriaCuboValores{
+    width: 20%;
+    height: 10%;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.HistoriaIMGValores{
+    height: 50px;
+    width: 50px;
+}
 
 
 
