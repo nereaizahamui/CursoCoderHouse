@@ -54,7 +54,6 @@ header{
     background-position: center;
     background-size: cover;
 }
-
 .IndexFoto1{
     width: 50%;
 }
@@ -233,28 +232,17 @@ header{
     height: 50px;
     width: 50px;
 }
-
-
-
-
-
-
-
-
-
 /*servicios*/
 .ServiciosTitulo{
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 .ServiciosLista{
-margin: 12%
+margin: 2% 4%
 }
 .ServiciosOpciones{
-    border: #454B66 solid;
+    border: #677db7 solid;
     text-align: center;
     padding: 0;
-    Margin:10px;
 }
 
 
