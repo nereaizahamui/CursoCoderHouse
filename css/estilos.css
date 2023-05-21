@@ -96,11 +96,6 @@ header{
     padding-bottom: 1%;
     font-size: larger;
 }
-.IndexTextoSpa{
-    text-decoration: none;
-    color: white;
-    font-size: 130%;
-}
 #IndexContainerPromos{
     padding-top: 50px;
     display: grid;
@@ -123,22 +118,52 @@ header{
     grid-area: spa1;
     background-image: url(../img/spa2.jpg);
     padding-top: 22%;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    position: relative;
+}
+#IndexSpa1:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 #IndexSpa2{
     grid-area: spa2;
     background-image: url(../img/spa1.jpg);
     padding-top: 22%;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    position: relative;
+}
+#IndexSpa2:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 #IndexSpa3{
     grid-area: spa3;
     background-image: url(../img/spa4.jpg);
     padding-top: 22%;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    position:relative;
+}
+#IndexSpa3:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 #IndexOtrosSpas{
     grid-area: otros;
@@ -146,6 +171,13 @@ header{
     padding-top: 22%;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.IndexTextoSpa{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
 }
 .IndexTituloTurnos{
     margin-top: 35px;
